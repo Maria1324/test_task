@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+ 
+}
+#logo{
+    height:200px;
+    width: 600px;
+}
+
+#search{
+    height:56px;
+    padding: 16px;
+    gap:8px;    
+    border: 1px solid #00000080 ;
+    border-radius: 8px
+}
